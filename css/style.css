@@ -1,3 +1,6 @@
+#floatingTextarea{
+	resize: none;
+}
 img {
 	box-sizing: border-box;
 	object-fit: contain;
