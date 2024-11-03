@@ -1,0 +1,22 @@
+img {
+	box-sizing: border-box;
+	object-fit: contain;
+}
+.card-img-top {
+	height: 20rem;
+}
+
+@media (max-width: 576px) {
+	.card-img-top {
+		height: 15rem;
+	}
+	.box .card-img-top {
+		height: 5rem;
+	}
+	.container {
+		font-size: 0.8rem;
+	}
+	.btn {
+		font-size: 0.5rem;
+	}
+}
